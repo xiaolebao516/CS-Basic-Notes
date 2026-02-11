@@ -1,3 +1,26 @@
 {
-    "C_Cpp.default.compilerPath": "f:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"
+    "C_Cpp.default.compilerPath": "f:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+
+
+    "editor.fontFamily": "'JetBrains Mono NL', 'NSimSun', 'Songti SC', serif",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 22, // 稍微再调高一点点，更有呼吸感
+    "editor.fontWeight": "500",
+    "editor.letterSpacing": 0.5, // 【关键】增加字符间距，视觉上会显得字体更扁、更清爽
+    "editor.fontLigatures": false,
+
+
+
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.renderLineHighlight": "all",
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": ["-NoExit", "-Command", "chcp 65001"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
 }
